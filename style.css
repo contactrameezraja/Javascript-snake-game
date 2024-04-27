@@ -19,6 +19,7 @@ body,
   grid-template-columns: repeat(20, 20px);
   grid-template-rows: repeat(20, 20px);
   margin: 5px;
+  position: relative; /* Added position relative to game board */
 }
 
 .game-border-1 {
@@ -93,4 +94,5 @@ body,
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 0;
 }
