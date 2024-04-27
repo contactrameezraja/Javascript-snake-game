@@ -42,7 +42,7 @@ body,
 
 #instruction-text {
   position: absolute;
-  top: 50%;
+  top: calc(50% + 100px); /* Position below the image */
   left: 50%;
   transform: translate(-50%, -50%);
   color: #333;
